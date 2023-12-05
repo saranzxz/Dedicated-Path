@@ -22,3 +22,4 @@
     - The server runs this script when it is ready to send data to the client.
 - simple.p4
     - Switch 2 and switch 3 use this program to route packets to the client. There are not priority specific routing logic since they are intended to simply forward traffic.
+<code>Ether() / IP(dst = '192.168.1.10', proto = 0x92) / custom_packet / Raw(load = video/metadata)</code>
