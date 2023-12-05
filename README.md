@@ -24,4 +24,5 @@
     - Switch 2 and switch 3 use this program to route packets to the client. There are not priority specific routing logic since they are intended to simply forward traffic.
 
 On a high level, packets are crafted using scapy as follows at the server,
-<code>Ether() / IP(dst = '192.168.1.10', proto = 0x92) / Priority(Priority = 1 or o) / Raw(load = video/metadata)</code>
+
+<code>Ether() / IP(dst = IP of client, proto = 0x92) / Priority(Priority = 1 or 0) / Raw(load = video/metadata)</code>
