@@ -1,6 +1,7 @@
 # Dedicated Network Pathing For Specific Data Packets
 
 ## NOTE: The resource3.ipynb can be downloaded and executed to recreate the slice and experimental setup.
+## Ideally, on inspecting the client, you should be able to see a newly generates results.csv in the client with all metrics recorded. It can be further consolidated using anlyz.py.
 
 ### Some details regarding the code
 - anlyz.py
